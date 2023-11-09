@@ -165,3 +165,4 @@ export default News
 
 // In case of inline CSS we made a javascript object and 
 // wirte inside double curly braces ;
+
