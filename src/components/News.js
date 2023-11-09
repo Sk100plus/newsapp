@@ -48,6 +48,32 @@ static propsTypes={
         {
             "source": {
                 "id": null,
+                "name": "CNET"
+            },
+            "author": "Zachary McAuliffe",
+            "title": "This iOS 17 Feature Blocks Unsolicited Nudes on Your iPhone - CNET",
+            "description": "The feature works in Apple services, like Messages and AirDrop.",
+            "url": "https://www.cnet.com/tech/services-and-software/this-ios-17-feature-blocks-unsolicited-nudes-on-your-iphone/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/32c24538cfcb439859a182df9b509a6e4086b657/hub/2023/10/17/95bd467a-3783-4698-b495-57ea3d853554/gettyimages-1676557935.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2023-10-29T11:00:07Z",
+            "content": "Apple released iOS 17 on Sept. 18, and the OS included a handful of fun new features and improvements, like Live Stickers and offline maps. But one new feature included in iOS 17 is designed to help … [+1837 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNET"
+            },
+            "author": "Zachary McAuliffe",
+            "title": "This iOS 17 Feature Blocks Unsolicited Nudes on Your iPhone - CNET",
+            "description": "The feature works in Apple services, like Messages and AirDrop.",
+            "url": "https://www.cnet.com/tech/services-and-software/this-ios-17-feature-blocks-unsolicited-nudes-on-your-iphone/",
+            "urlToImage": "https://www.cnet.com/a/img/resize/32c24538cfcb439859a182df9b509a6e4086b657/hub/2023/10/17/95bd467a-3783-4698-b495-57ea3d853554/gettyimages-1676557935.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "publishedAt": "2023-10-29T11:00:07Z",
+            "content": "Apple released iOS 17 on Sept. 18, and the OS included a handful of fun new features and improvements, like Live Stickers and offline maps. But one new feature included in iOS 17 is designed to help … [+1837 chars]"
+        },
+        {
+            "source": {
+                "id": null,
                 "name": "MacRumors"
             },
             "author": "Tim Hardwick",
@@ -85,7 +111,7 @@ static propsTypes={
   let parseData=await data.json()
   console.log(parseData);
   this.setState({
-    articles:parseData.articles,
+    articles:this.articles,
     totalResults:parseData.totalResults,
   loading:false,
 
