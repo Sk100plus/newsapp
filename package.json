@@ -1,10 +1,7 @@
 {
   "name": "news",
-<<<<<<< HEAD
   "homepage":"https://Sk100plus.github.io/newsapp",
-=======
-   "homepage":"https://Sk100plus.github.io/newsapp",
->>>>>>> 09151f8b7f5f3d41d1a949c82b80389f5cb25b00
+
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -18,11 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-<<<<<<< HEAD
-    "predeploy":"npm run build",
-=======
+
        "predeploy":"npm run build",
->>>>>>> 09151f8b7f5f3d41d1a949c82b80389f5cb25b00
     "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
