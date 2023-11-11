@@ -20,7 +20,7 @@ static propsTypes={
     super(props);
     console.log("Hello");
     this.state={
-      articles:[],
+      // articles:[],
       loading:false,
       totalResults:0,
       page:1,
@@ -111,7 +111,7 @@ static propsTypes={
   let parseData=await data.json()
   console.log(parseData);
   this.setState({
-    articles:this.state.articles,
+    articles:this.articles,
     totalResults:parseData.totalResults,
   loading:false,
 
